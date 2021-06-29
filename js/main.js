@@ -39,6 +39,8 @@ function dataURItoBlob(dataURI) {
 
 }
 
+/*
+
 function imageHandler(dataUrl, type, imageData) {
   imageData.minify({
     maxWidth: 320,
@@ -72,10 +74,10 @@ function imageHandler(dataUrl, type, imageData) {
     document.getElementById('file-size').textContent = file.size
     document.getElementById('file-type').textContent = file.type
     info.style.display = 'block'
-    */
+     // * /
   })
 }
-
+*/
 
 
 
@@ -286,7 +288,7 @@ $(document).ready(function() {
     
   });
 
-
+/*
   var ImageData = QuillImageDropAndPaste.ImageData
   quill.getModule('toolbar').addHandler('image', function(clicked) {
     if (clicked) {
@@ -315,6 +317,7 @@ $(document).ready(function() {
       fileInput.click()
     }
   });
+  */
 
   // re-show toolbar after loading all css
   $("#toolbar").css("display", "block");
